@@ -14,7 +14,7 @@ namespace WindowsFormsApp1
         Down
     };
 
-    class Settings
+    public class Settings
     {
         public static int Width { get; set; }
         public static int Height { get; set; }
@@ -28,9 +28,9 @@ namespace WindowsFormsApp1
         {
             Width = 16;
             Height = 16;
-            Speed = 20;
+            Speed = 6;
             Score = 0;
-            Points = 100;
+            Points = 1;
             GameOver = false;
             direction = Directions.Down;
         }

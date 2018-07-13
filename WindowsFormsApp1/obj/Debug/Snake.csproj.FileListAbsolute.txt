@@ -8,3 +8,13 @@ C:\Users\popel\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Snake.cs
 C:\Users\popel\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Snake.csproj.CoreCompileInputs.cache
 C:\Users\popel\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\popel\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\Snake\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\Snake\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\Snake\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\Snake\WindowsFormsApp1\obj\Debug\Snake.csprojAssemblyReference.cache
+D:\Snake\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\Snake\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\Snake\WindowsFormsApp1\obj\Debug\Snake.csproj.GenerateResource.cache
+D:\Snake\WindowsFormsApp1\obj\Debug\Snake.csproj.CoreCompileInputs.cache
+D:\Snake\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\Snake\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

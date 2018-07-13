@@ -145,11 +145,11 @@ namespace WindowsFormsApp1
                 {
                     if (i == 0)
                     {
-                        snakeColour = Brushes.Yellow;
+                        snakeColour = Brushes.DarkSlateBlue;
                     }
                     else
                     {
-                        snakeColour = Brushes.Green;
+                        snakeColour = Brushes.SlateBlue;
                     }
                     //draw body
                     canvas.FillEllipse(snakeColour, new Rectangle(
@@ -157,7 +157,7 @@ namespace WindowsFormsApp1
                         Snake[i].Y * Settings.Height,
                         Settings.Width, Settings.Height));
                     //draw food
-                    canvas.FillEllipse(Brushes.White, new Rectangle(
+                    canvas.FillEllipse(Brushes.MediumOrchid, new Rectangle(
                         food.X * Settings.Width,
                         food.Y * Settings.Height,
                         Settings.Width, Settings.Height));
@@ -200,6 +200,7 @@ namespace WindowsFormsApp1
             };
 
             Snake.Add(body);
+            Settings.Speed++;
             Settings.Score += Settings.Points;
             label2.Text = Settings.Score.ToString();
             generateFood();
@@ -214,5 +215,47 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void aboutGameToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            aboutAuthor.Visible = false;
+            string str = "Welcome to Snake game! \n Rules are simple as usual. \n You should search for food \n without eating walls and \n yourself. \n Have fun!";
+            aboutGame.Text = str;
+            aboutGame.Visible = true;
+        }
+
+        private void aboutAuthorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            aboutGame.Visible = false;
+            string str = "Game is developed \n by 2 year students \n from Chernivtsi \n National University \n Popelyshko Nataliya \n and Babyuk Petro. \n";
+            aboutAuthor.Text = str;
+            aboutAuthor.Visible = true;
+        }
+        private void aboutAuthor_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void aboutGame_Click(object sender, EventArgs e)
+        {
+
+        }
+        
+        
     }
 }
